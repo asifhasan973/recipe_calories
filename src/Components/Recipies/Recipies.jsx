@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { SlClock } from 'react-icons/sl';
 import { FaFire } from 'react-icons/fa';
-const Recipies = ({ recipe }) => {
+const Recipies = ({ recipe, handleCook }) => {
   const {
     recipe_image,
     recipe_name,
@@ -11,7 +11,7 @@ const Recipies = ({ recipe }) => {
     calories,
   } = recipe;
   return (
-    <div className="my-16">
+    <div className="">
       <div className="card border border-[#28282833] h-full">
         <figure className="px-6 pt-6">
           <img src={recipe_image} alt={recipe_name} className="rounded-xl" />
@@ -46,7 +46,10 @@ const Recipies = ({ recipe }) => {
           </div>
 
           <div className="card-actions">
-            <button className="btn bg-green-500 font-normal rounded-full text-[#150B2B] px-6">
+            <button
+              onClick={() => handleCook(recipe)}
+              className="btn bg-green-500 font-normal rounded-full text-[#150B2B] px-6"
+            >
               Want to Cook
             </button>
           </div>
@@ -60,4 +63,5 @@ export default Recipies;
 
 Recipies.propTypes = {
   recipe: PropTypes.object.isRequired,
+  handleCook: PropTypes.func.isRequired,
 };

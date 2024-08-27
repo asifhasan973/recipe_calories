@@ -12,8 +12,15 @@ const OurRecipies = () => {
   }, []);
   let [cookItems, setCookItems] = useState([]);
   const handleCook = (item) => {
-    let newItem = [...cookItems, item];
-    setCookItems(newItem);
+    if (!cookItems.includes(item)) {
+      let newItem = [...cookItems, item];
+      setCookItems(newItem);
+    } else {
+      document.getElementById('toast').classList.remove('hidden');
+      setTimeout(() => {
+        document.getElementById('toast').classList.add('hidden');
+      }, 1000);
+    }
   };
   // preparing
   let [preparingItems, setPreparingItems] = useState([]);
@@ -40,7 +47,7 @@ const OurRecipies = () => {
         {/* recipies start  */}
         <div className="grid grid-cols-1 lg:grid-cols-12 my-16">
           <div className="lg:col-span-7">
-            <div className="grid grid-cols-2 gap-7">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-7">
               {recipies.map((recipe) => (
                 <Recipies
                   key={recipe.recipe_id}
@@ -84,6 +91,15 @@ const OurRecipies = () => {
             </div>
             {/* Currently cooking  */}
             <div>
+              {/* toast  */}
+              <div id="toast" className="hidden toast  toast-end toast-middle">
+                <div className="alert alert-info font-semibold">
+                  <div>
+                    <h1>Already Selected</h1>
+                    <progress className="progress w-56 "></progress>
+                  </div>
+                </div>
+              </div>
               <h1 className="text-2xl font-semibold text-center mt-20 m-8">
                 Currently cooking: {preparingItems.length}
               </h1>

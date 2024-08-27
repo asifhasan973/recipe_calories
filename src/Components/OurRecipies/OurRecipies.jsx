@@ -6,7 +6,9 @@ import PreparingItems from '../PreparingItems/PreparingItems';
 const OurRecipies = () => {
   let [recipies, setRecipies] = useState([]);
   useEffect(() => {
-    fetch('../../../public/foods.json')
+    fetch(
+      'https://raw.githubusercontent.com/asifhasan973/All_jsons/main/calories_data.json'
+    )
       .then((res) => res.json())
       .then((data) => setRecipies(data));
   }, []);

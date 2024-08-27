@@ -1,0 +1,102 @@
+[
+  {
+    "recipe_id": 1,
+    "recipe_image": "https://plus.unsplash.com/premium_photo-1663852297522-d01619dc3e55?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZHN8ZW58MHwwfDB8fHww",
+    "recipe_name": "Chicken Stir Fry",
+    "short_description": "A quick and easy stir-fry dish with chicken, vegetables, and a savory sauce.",
+    "ingredients": [
+      "550 g chicken breast, sliced",
+      "120 ml soy sauce",
+      "200 g broccoli florets",
+      "100 g bell pepper, sliced",
+      "50 g onion, sliced",
+      "2 cloves garlic, minced",
+      "30 ml vegetable oil"
+    ],
+    "preparing_time": 30,
+    "calories": 320
+  },
+  {
+    "recipe_id": 2,
+    "recipe_image": "https://images.unsplash.com/photo-1516865131505-4dabf2efc692?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Zm9vZHN8ZW58MHwwfDB8fHww",
+    "recipe_name": "Spaghetti Bolognese",
+    "short_description": "A classic Italian pasta dish with rich meat sauce and spaghetti.",
+    "ingredients": [
+      "500 g ground beef",
+      "400 g spaghetti",
+      "200 g tomato sauce",
+      "100 g onion, chopped",
+      "2 cloves garlic, minced",
+      "50 g parmesan cheese, grated",
+      "2 tbsp olive oil"
+    ],
+    "preparing_time": 45,
+    "calories": 600
+  },
+  {
+    "recipe_id": 3,
+    "recipe_image": "https://plus.unsplash.com/premium_photo-1677192448752-ca770afef3cb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZvb2RzfGVufDB8MHwwfHx8MA%3D%3D",
+    "recipe_name": "Caesar Salad",
+    "short_description": "A fresh and crunchy Caesar salad with homemade dressing.",
+    "ingredients": [
+      "200 g romaine lettuce, chopped",
+      "100 g croutons",
+      "50 g parmesan cheese, grated",
+      "2 chicken breasts, grilled and sliced",
+      "100 ml Caesar dressing",
+      "1 clove garlic, minced",
+      "2 tbsp olive oil"
+    ],
+    "preparing_time": 20,
+    "calories": 350
+  },
+  {
+    "recipe_id": 4,
+    "recipe_image": "https://images.unsplash.com/photo-1529704640551-eef9ba5d774a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGZvb2RzfGVufDB8MHwwfHx8MA%3D%3D",
+    "recipe_name": "Fluffy Pancakes",
+    "short_description": "Light and fluffy pancakes perfect for breakfast or brunch.",
+    "ingredients": [
+      "200 g all-purpose flour",
+      "250 ml milk",
+      "2 eggs",
+      "50 g sugar",
+      "10 g baking powder",
+      "30 g butter, melted",
+      "1 tsp vanilla extract"
+    ],
+    "preparing_time": 25,
+    "calories": 290
+  },
+  {
+    "recipe_id": 5,
+    "recipe_image": "https://images.unsplash.com/photo-1583032353423-04fd96ef221c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTJ8fGZvb2RzfGVufDB8MHwwfHx8MA%3D%3D",
+    "recipe_name": "Mango Smoothie",
+    "short_description": "A refreshing and healthy mango smoothie made with fresh mangoes and yogurt.",
+    "ingredients": [
+      "300 g mango, peeled and chopped",
+      "200 ml yogurt",
+      "50 ml milk",
+      "1 tbsp honey",
+      "5 ice cubes"
+    ],
+    "preparing_time": 10,
+    "calories": 180
+  },
+  {
+    "recipe_id": 6,
+    "recipe_image": "https://plus.unsplash.com/premium_photo-1663852297522-d01619dc3e55?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZHN8ZW58MHwwfDB8fHww",
+    "recipe_name": "Chocolate Cake",
+    "short_description": "A rich and moist chocolate cake perfect for celebrations.",
+    "ingredients": [
+      "250 g all-purpose flour",
+      "200 g sugar",
+      "100 g cocoa powder",
+      "3 eggs",
+      "100 ml vegetable oil",
+      "200 ml milk",
+      "1 tsp baking powder"
+    ],
+    "preparing_time": 60,
+    "calories": 450
+  }
+]
